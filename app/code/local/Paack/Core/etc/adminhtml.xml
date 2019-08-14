@@ -1,0 +1,21 @@
+<config>
+	<acl>
+			<resources>
+				<admin>
+					<children>
+						<system>
+							<children>
+								<config>
+									<children>
+										<paacksettings module="paack_core">
+											<title>paack</title>
+										</paacksettings>
+									</children>
+								</config>
+							</children>
+						</system>
+					</children>
+				</admin>
+			</resources>
+		</acl>
+</config>

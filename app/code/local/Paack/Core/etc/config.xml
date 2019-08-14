@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Paack_Core>
+            <version>0.0.1</version>
+        </Paack_Core>
+    </modules>
+</config>

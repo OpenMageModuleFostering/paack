@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/paack",
+    "type": "magento-module",
+    "license": "MITL",
+    "homepage": "",
+    "description": "Delivery goods within 2 hours using Paack",
+    "authors": [
+    {
+        "name": "Suraj Shirvankar",
+        "email": "surajshirvankar@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

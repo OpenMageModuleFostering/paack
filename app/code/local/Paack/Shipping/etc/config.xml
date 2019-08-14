@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Paack_Shipping>
+      <version>0.1.0</version>
+    </Paack_Shipping>
+  </modules>
+  <global>
+    <models>
+      <paack_shipping>
+        <class>Paack_Shipping_Model</class>
+      </paack_shipping>
+    </models>
+  </global>
+  <default>
+    <carriers>
+      <paack_shipping>
+        <active>1</active>
+        <sallowspecific>0</sallowspecific>
+        <name>Paack Two Hour Delivery</name>
+        <title>Paack Two Hour Delivery</title>
+        <price>2.0</price>
+        <model>paack_shipping/carrier</model>
+      </paack_shipping>
+    </carriers>
+  </default>
+  <frontend>
+    <routers>
+      <mymodule>
+        <use>standard</use>
+        <args>
+          <module>Paack_Shipping</module>
+          <frontName>paack</frontName>
+        </args>
+      </mymodule>
+    </routers>
+  </frontend>
+</config>

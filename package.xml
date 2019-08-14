@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>paack</name>
+    <version>0.1.0</version>
+    <stability>beta</stability>
+    <license>MITL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Delivery goods within 2 hours using Paack</summary>
+    <description>Delivery goods within 2 hours using Paack</description>
+    <notes>Allows customers to ship goods using Paack</notes>
+    <authors><author><name>Suraj Shirvankar</name><user>h0lyalg0rithm</user><email>surajshirvankar@gmail.com</email></author></authors>
+    <date>2016-02-18</date>
+    <time>16:46:14</time>
+    <contents><target name="magelocal"><dir name="Paack"><dir name="Core"><dir name="etc"><file name="adminhtml.xml" hash="3c8b7051b188d545f0cae5bb616dbf8b"/><file name="config.xml" hash="b7d60cec323e35297d78c04e1cb6f086"/><file name="system.xml" hash="5dc93a156fce52ab92ddc8629d8c92b1"/></dir></dir><dir name="Shipment"><dir name="Model"><file name="Observer.php" hash="526c5f37a86517485df25a0dac02a01c"/></dir><dir name="etc"><file name="config.xml" hash="4c0c5f55818674dc34c447553c10fdf9"/></dir></dir><dir name="Shipping"><dir name="Model"><file name="Carrier.php" hash="cc1c0cd0351b8997ab4c318dedc375fa"/><dir name="Data"><file name="postal.csv" hash="72c6df832a6ee283552072b3b432b57d"/><file name=".DS_Store" hash="194577a7e20bdcc7afbb718f502c134c"/></dir></dir><dir name="etc"><file name="config.xml" hash="1bb81e76eacdc3f59d1f9222e041927b"/><file name="system.xml" hash="f12a675c0c678d2aeed817632bf1a734"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Paack_Shipment.xml" hash="68950c4c3a01bc3c1af7b55e1571b358"/><file name="Paack_Shipping.xml" hash="2e035c8531b1f0d11e543893b7042cd5"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.6.0</min><max>5.6.0</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.6.0</min><max>1.9.2</max></package></required></dependencies>
+</package>
